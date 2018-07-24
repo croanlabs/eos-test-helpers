@@ -13,9 +13,8 @@ The following EOS programs and tools are required to run the scripts:
 ## Instructions
 ### Running Docker EOS development image
 ```
-sudo docker run --name nodeos -p 8888:8888 -p 9876:9876 -ti eosio/eos-dev /bin/bash
+sudo docker run --name nodeos -p 8888:8888 -p 9876:9876 -ti eosio/eos-dev:v1.1.0 /bin/bash
 ```
-The image version can be specified by adding the version number to the image name. For example, to run the version ```v1.0.3``` just replace ```eosio/eos-dev``` by ```eosio/eos-dev:v1.0.3```. If no version is specified the latest version is used.
 
 ## Scripts
 + setup.sh
